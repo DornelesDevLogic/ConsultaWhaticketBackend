@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "emailRelatorioUserRatingsNEW.json",
+    "relatorio.txt",
+    "Backups/*",
+    "node_modules/*"
+  ]
+}

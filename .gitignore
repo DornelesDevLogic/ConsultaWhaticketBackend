@@ -1,0 +1,30 @@
+Banco/
+*.fdb
+*.sql
+*.rar
+*.env
+# Dependências
+node_modules/
+
+# Credenciais de banco escritas direto no código (mover para .env antes de versionar)
+postgresConnection.js
+dashboradWEb/postgresConnection.js
+firebirdConnection.js
+firebirdConnectionOptions.js
+mysqlConnection.js
+deleteAllDataFromTable.js
+
+# Cópias antigas (têm senha de e-mail antiga) e arquivos gerados com dados de clientes
+Backups/
+relatorio.txt
+resultado_*.json
+top20mensagens.txt
+lastRun*.json
+emailRelatorioUserRatingsNEW.json
+
+# Fotos enviadas por usuarios (dados pessoais)
+rede-social/uploads/
+
+# Rede social de teste: banco com contas de usuarios e log local
+rede-social/database/
+rede-social/server.log

@@ -1,0 +1,36 @@
+{
+  "name": "consultawhaticket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.18.2",
+    "iconv-lite": "^0.6.3",
+    "moment-timezone": "^0.6.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.1",
+    "net": "^1.0.2",
+    "node-cron": "^4.2.1",
+    "node-firebird": "^1.1.5",
+    "nodemailer": "^7.0.5",
+    "pg": "^8.11.5",
+    "pool": "^0.4.1",
+    "react-datepicker": "^4.18.0",
+    "requests": "^0.3.0",
+    "utf8": "^3.0.0",
+    "utf8-to-ansi": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
